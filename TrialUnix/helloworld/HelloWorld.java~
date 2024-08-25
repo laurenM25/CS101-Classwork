@@ -1,0 +1,164 @@
+Last login: Sun Feb  4 20:25:32 on console
+laurendonnelly@10-16-203-27 ~ % pwd
+/Users/laurendonnelly
+laurendonnelly@10-16-203-27 ~ % ls
+1stproject
+Applications
+Creative Cloud Files
+Creative Cloud Files ld2857@nyu.edu 8153822c5895024ec85f35ffa395f95ea94123e609a4a76f0daacb3f22341a0e
+Desktop
+Documents
+Downloads
+GameMakerStudio2
+It's easy to customize your notes..txt
+Library
+Make a note of it!.txt
+Movies
+Music
+My project
+My project (1)
+Pictures
+Public
+TrialUnix
+Zotero
+lowquality_id_photo.jpeg
+untitled.blend
+laurendonnelly@10-16-203-27 ~ % cd TrialUnix
+laurendonnelly@10-16-203-27 TrialUnix % ls
+#Hello.txt#	Hello.txt~	hello.txt
+laurendonnelly@10-16-203-27 TrialUnix % clear
+
+laurendonnelly@10-16-203-27 TrialUnix % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+laurendonnelly@10-16-203-27 TrialUnix % cd helloworld
+cd: no such file or directory: helloworld
+laurendonnelly@10-16-203-27 TrialUnix % mkdir helloworld
+laurendonnelly@10-16-203-27 TrialUnix % cd helloworld
+laurendonnelly@10-16-203-27 helloworld % touch HelloWorld.java
+laurendonnelly@10-16-203-27 helloworld % emacs HelloWorld.java
+laurendonnelly@10-16-203-27 helloworld % cat HelloWorld.java
+public class HelloWorld {
+    
+    public static void main(String[] args){
+	System.out.println("hi!");
+
+    }
+}
+laurendonnelly@10-16-203-27 helloworld % javac HelloWorld.java 
+laurendonnelly@10-16-203-27 helloworld % java HelloWorld.java
+hi!
+laurendonnelly@10-16-203-27 helloworld % tree
+.
+├── HelloWorld.class
+├── HelloWorld.java
+└── HelloWorld.java~
+
+1 directory, 3 files
+laurendonnelly@10-16-203-27 helloworld % touch HelloWorld.java
+laurendonnelly@10-16-203-27 helloworld % emacs HelloWorld.java
+laurendonnelly@10-16-203-27 helloworld % tree  
+.
+├── HelloWorld.class
+├── HelloWorld.java
+└── HelloWorld.java~
+
+1 directory, 3 files
+laurendonnelly@10-16-203-27 helloworld % javac javac HelloWorld.java
+HelloWorld.java:3: error: illegal start of type
+    package edu.nyu.cs.ld2857;
+    ^
+HelloWorld.java:3: error: <identifier> expected
+    package edu.nyu.cs.ld2857;
+                             ^
+error: Class names, 'javac', are only accepted if annotation processing is explicitly requested
+3 errors
+laurendonnelly@10-16-203-27 helloworld % javac edu.nyu.cs.ld2857
+error: Class names, 'edu.nyu.cs.ld2857', are only accepted if annotation processing is explicitly requested
+1 error
+laurendonnelly@10-16-203-27 helloworld % javac edu.nyu.cs.ld2857.HelloWorld
+error: Class names, 'edu.nyu.cs.ld2857.HelloWorld', are only accepted if annotation processing is explicitly requested
+1 error
+laurendonnelly@10-16-203-27 helloworld % javac edu.nyu.cs.ld2857.HelloWorld.java
+error: file not found: edu.nyu.cs.ld2857.HelloWorld.java
+Usage: javac <options> <source files>
+use --help for a list of possible options
+laurendonnelly@10-16-203-27 helloworld % emacs HelloWorld.java
+laurendonnelly@10-16-203-27 helloworld % javac edu.nyu.cs.ld2857.HelloWorld
+error: Class names, 'edu.nyu.cs.ld2857.HelloWorld', are only accepted if annotation processing is explicitly requested
+1 error
+laurendonnelly@10-16-203-27 helloworld % javac HelloWorld.java
+HelloWorld.java:3: error: ';' expected
+    Package edu.nyu.cs.ld2857;
+               ^
+HelloWorld.java:3: error: <identifier> expected
+    Package edu.nyu.cs.ld2857;
+                             ^
+2 errors
+laurendonnelly@10-16-203-27 helloworld % emacs HelloWorld.java
+
+File Edit Options Buffers Tools Java Help                                                                              
+package	edu.nyu.cs.ld2857;
+
+public class HelloWorld {
+
+    public static void main(String[] args){
+
+	System.out.println("hi!");
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-UU-:**-  F1  HelloWorld.java   All   L3     (Java//l Abbrev) ---------------------------------------------------------
+
